@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 65px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+
+}
+
+.navlogo{
+
+height: 45px;
+width: 110px;
+
+
+
+}
+
+.logo{
+    background-image: url(download.png);
+    background-size: cover;
+    height: 45px;
+    width: 110px;
+    
+
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+.navsearch:hover{
+    border: 2px solid orange;
+
+}
+.address{
+    color: #cccccc;
+    font-size: 0.90rem;
+    margin-left: 50px;
+
+}
+.country{
+    font-size: 1rem;
+    margin-left: 12px;
+
+}
+
+.addicon{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.navsearch{
+    display: flex;
+    margin-left: 15px;
+    width: 600px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: space-evenly;
+
+    
+    
+}
+
+.searchicon{
+    background-color: orange;
+    /* height : 40px; */
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    color: #0f1111;
+    
+
+}
+.all{
+    
+    border: 2px solid beige;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+}
+.bar{
+    width: 500px;
+    font-size: 1rem;
+    border: none;
+}
+.hello{
+    font-size: 0.80rem;
+}
+.rt{
+    font-size: 0.80rem;
+}
+.sign{
+    font-weight: bold;
+}
+.return{
+font-weight: bold;
+}
+.cart i{
+    font-size : 25px;
+}
+.cart{
+    font-weight:bold ;
+}
+.panel{
+    background-color: rgb(24, 20, 20);
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.option p{
+    display: inline;
+    margin-left: 18px;
+    
+}
+.option{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.deals{
+    font-size: o.85rem;
+    font-weight: bold;
+}
+.main{
+    height: 400px;
+    background-image: url(Amazon-products-sale-2023-great-indian-festival-1024x299.webp);
+    background-size: cover;
+}
+.mess{
+    background-color: black;
+    color: beige;
+    height: 30px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 20px;
+}
+a{
+    color: rgb(114, 114, 228);
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.box{
+    height: 320px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 10px;
+    background-color: white;
+    
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+.img{
+    background-image: url(1.jpg);
+    height: 230px;
+    width: 260px;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+p1{color: white;
+    margin-left: 15px;
+    margin-top: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+
+}
+h3{
+     margin-left: 16px; 
+    margin-top: 8px; 
+}
+    
+.s{
+    margin-left: 13px;
+    margin-top: 15px;
+    font-size: 0.85rem;
+    color: rgb(95, 95, 228);
+    font-weight: bold;
+}
+.img2{
+    background-image: url(2.jpg);
+    height: 230px;
+    width: 260px;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+.img3{
+    background-image: url(3.jpg);
+    height: 230px;
+    width: 260px;
+    margin-left: 18px;
+    margin-top: 10px;
+
+}
+.img4{
+    background-image: url(4.jpg);
+    height: 230px;
+    width: 260px;
+    margin-left: 18px;
+    margin-top: 10px;}
+.footerp{
+    background-color: rgb(32, 26, 26);
+    color: white;
+    height: 30px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot2{ 
+    background-color: #1a1515;
+    height: 400px;
+    width: 100%;
+    color: white;
+    justify-content: space-evenly;
+    
+    display: flex;
+    
+}
+ul a{
+    color: white;
+    display: block;
+    margin-top: 9px;
+    font-size: 0.85rem;
+    
+}
+ul p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.last{
+    background-color: rgb(31, 22, 22);
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    
+}
+.imz{
+
+     background-image: url(download.png);
+     background-size: cover;
+    height: 50px;
+    width: 125px;
+    margin-left: 200px;
+    
+   
+}
+.world{
+    color: aliceblue;
+    margin-left: 100px;
+    border: 0.5px solid white;
+}
+.bss{
+    background-color: #1a1515;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: white;
+    
+}
+.para  {
+    
+    padding-top: 25px;
+    color: white;
+    
+    
+}
+a{
+    color: white;
+}
+
+
+.par {  padding: 5px;
+    }
